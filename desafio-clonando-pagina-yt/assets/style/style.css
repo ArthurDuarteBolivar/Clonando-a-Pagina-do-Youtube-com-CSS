@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px 0px 24px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 56px;
+}
+
+.menu-container_items {
+    flex: 1;
+}
+
+.menu-container_left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-container_left svg {
+    margin-right: 2rem;
+}
+
+.menu-container_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container_center input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.menu-container_center input:focus {
+    border: none;
+}
+
+.menu-container_center button {
+    width: 57px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+}
+
+
+.menu-container_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-container_right img {
+    width: 34px;
+    height: 34px;
+}
+
+.menu-container_right svg {
+    margin-right: 1rem;
+    width: 24px;
+    height: 24px
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6rem;
+}
+
+.media_container {
+    width: 70%;
+    height: 746px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.media_container_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media_container_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+
+.media_container_video-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+}
+
+.media_container_video-actions_channel-infos {
+    display: flex;
+    align-items: center;
+
+}
+
+.media_container_video-actions_channel-infos img {
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.media_container_video-actions_channel-infos div span {
+    display: flex;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-left: 10px;
+}
+
+.media_container_video-actions_channel-infos div span:nth-child(1) {
+    font-weight: 600;
+    color: black;
+}
+
+.media_container_video-actions_channel-infos div span:nth-child(2) {
+    font-weight: 400;
+    color: #515151;
+}
+
+.media_container_video-actions_subscribe {
+    background: #CC0000;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    padding: 12px 39.5px;
+}
+
+.media_container_video-actions_icons {
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: black;
+}
+
+.media_container_video-actions_icons svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.media_container_views {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.media_container_description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
+    white-space: pre-line;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    gap: 1.3rem;
+}
+
+.sidebar-container_video{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-container_thumb{
+    width: 160px;
+    height: 90px;
+}
+
+.sidebar-container_infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+
+.sidebar-container_infos_title{
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+.sidebar-container_infos_owner{
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+}
+
+.sidebar-container_infos_data{
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+}
